@@ -4,13 +4,13 @@ Using data to save Danny's Diner! This project explores customer behavior and sa
 
 See full Case Study Here : - [https://8weeksqlchallenge.com/case-study-1/]
 
-(1). **Project Overview** : -
+(1). 🔍 **Project Overview** : -
 
 Danny seriously loves Japanese food so in the beginning of 2021, he decides to embark upon a risky venture and opens up a cute little restaurant that sells his 3 favourite foods: sushi, curry and ramen.
 
 Danny’s Diner is in need of your assistance to help the restaurant stay afloat - the restaurant has captured some very basic data from their few months of operation but have no idea how to use their data to help them run the business.
 
-(2). **Project Objectives** : -
+(2). 🎯 **Project Objectives** : -
 
 Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.
 
@@ -19,17 +19,17 @@ He plans on using these insights to help him decide whether he should expand the
 Danny has provided you with a sample of his overall customer data due to privacy issues - but he hopes that these examples are enough for you to write fully functioning SQL queries to help him answer his questions!
 
 
-(3). **Data Description**
+(3). 💾 **Data Description**
 
 **Table Descriptions** :-  
 
-  **members:**
+  👥 **members:**
 
   customer_id: Unique identifier for each customer.
 
   join_date: Date when the customer first joined Danny Dinner.
   
-  **menu:**
+  🍣 🍜 **menu:**
 
   
   product_id: Unique identifier for each product on the menu.
@@ -39,7 +39,7 @@ Danny has provided you with a sample of his overall customer data due to privacy
   price: Price of the product.
 
   
-  **sales:**
+   📊 **sales:**
 
   
   customer_id: Foreign key referencing the members table.
@@ -47,12 +47,19 @@ Danny has provided you with a sample of his overall customer data due to privacy
   order_date: Date of the order.
   
   product_id: Foreign key referencing the menu table.
-
   
-**Data Relationships:**
+(4). 🔗 **Data Relationships:**
 
-Clearly describe the relationships between the tables:
-sales table connects members and menu tables.
+The sales table links the members and menu tables via customer_id and product_id, respectively, enabling analysis of customer purchases.
+
+Clearly describe the relationships between the tables.
+
+
+ (5). 🛠️ **Tools & Technologies:**
+ 
+🛢️ PostgreSQL: Used for writing and executing SQL queries to analyze the dataset.
+
+🗄️ SQL: Core language for querying and generating insights from the restaurant's data.
 
 ## Thank You!
 
